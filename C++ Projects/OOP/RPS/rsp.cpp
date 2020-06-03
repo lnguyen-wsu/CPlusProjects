@@ -1,4 +1,5 @@
-
+// Programmer: Luan Nguyen
+// Project: simulation about rock-paper-scissor
 #include <iostream>
 #include <string>
 #include <stdlib.h>
