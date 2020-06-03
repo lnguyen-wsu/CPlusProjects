@@ -1,0 +1,29 @@
+#include<iostream>
+
+#include"grid.h"
+using std::cout;
+using std::endl;
+bool Grid:: isAval(int x, int y) const {
+    if (field[x][y] == '.')
+        return true;
+    return false;    
+}
+bool Grid::isAnt(int x, int y) const {
+    if (field[x][y]=='O')
+        return true;
+    return true;
+}
+bool Grid::_isInGrid(int x, int y) const {
+    if ( x>=0 && x<=19 && y>=0 && x <=19){
+        return true;
+    }
+    return false;
+}
+void Grid::print() const {
+    for (short i = 0; i<=19 ; i++){
+        for (short j= 0;j <=19; j++){
+            cout<<field[i][j] <<"  ";
+        }
+        cout<<endl;
+    }
+}
