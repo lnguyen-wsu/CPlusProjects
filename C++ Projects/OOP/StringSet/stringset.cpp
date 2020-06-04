@@ -1,3 +1,5 @@
+// Programmer : Luan Nguyen
+// Project: StringSet
 #include "stringset.h"
 #include <algorithm>
 using std::cout;
