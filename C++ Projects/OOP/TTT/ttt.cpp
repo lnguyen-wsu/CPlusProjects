@@ -1,5 +1,5 @@
-// this is TTT game
-// Luan Nguyen
+// Programmer: Luan Nguyen
+// Project: Tic-Tac-Toe
 #include <iostream>
 #include <string>
 using namespace std;
